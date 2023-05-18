@@ -22,7 +22,7 @@ class _PgPrincipaisMoedasState extends State<PgPrincipaisMoedas> {
 
   principaisMoedas() async {
     final String urlViaReal =
-        await 'https://api.hgbrasil.com/finance?format=json-cors&key=a588cfec';
+        await 'https://api.hgbrasil.com/finance?format=json-cors&key=b8a1b478';
     Response resposta = await get(Uri.parse(urlViaReal));
     Map money = json.decode(resposta.body);
 
